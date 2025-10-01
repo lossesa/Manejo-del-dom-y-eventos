@@ -1,0 +1,33 @@
+Manejo del Dom:
+
+Eventos: Se definen como acciones que ocurren en una pagina web. JavaScript puede “escuchar” esos eventos y ejecutar funciones (“handlers” o “listeners”) cuando ocurren.
+
+Los eventos tienen fases tambien: captura, objetivo, burbujeo.
+
+1. Evento del mouse: 
+- click.
+- dblclick.
+- mousedown / mouseup.
+- mousemove.
+- mouseover / mouseout.
+
+
+2. Evento del teclado: 
+- keydown.
+- keyup.
+- keypress.
+
+
+3. Formulario o entrada de datos:
+- input o textarea.
+- change.
+- submit.
+
+
+4. Carga/ventana/navegacion:
+- load.
+- beforeunload / unload.
+- resize.
+- scroll.
+
+
