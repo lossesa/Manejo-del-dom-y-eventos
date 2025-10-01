@@ -1,8 +1,8 @@
-// Traer elementos por ID
+// Traer elementos por ID 
 const nombre = document.getElementById("nombre");
 const apellido = document.getElementById("apellido");
 const nacimiento = document.getElementById("año_nac");
-const generos = document.getElementsByName("genero");
+const generos = document.getElementsByName("genero"); // Se trae por el nombre y lo que devuelve es una lista.
 const hobby1 = document.getElementById("h1");
 const hobby2 = document.getElementById("h2");
 const hobby3 = document.getElementById("h3");
@@ -14,14 +14,14 @@ const form = document.getElementById("formulario");
 const mostrar = document.getElementById("mostrar_datos");
 
 
-// Función para obtener género seleccionado (debido a que se generos devuelve una lista)
+// Función para obtener género seleccionado (debido a que generos devuelve una lista)
 function obtenerGenero() {
     for (let i = 0; i < generos.length; i++) {
         if (generos[i].checked) {
             return generos[i].value;
         }
     }
-    return "No valido.";
+    return "No se selecciono un valor.";
 }
 
 // Función para obtener hobbies seleccionados
@@ -40,7 +40,8 @@ function calcularEdad(añoNacimiento) {
     return añoActual - añoNacimiento;
 }
 
-// Capturar submit
+
+// Capturar el boton con el evento submit
 form.addEventListener("submit", (evento) => {
     evento.preventDefault();
 

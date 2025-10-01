@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador cajero</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <!--Lista de links-->
+    <div class="contenedor_links">
+        <h1>Links</h1>
+        <ul>
+           <li><a href="/Manejo-del-dom-y-eventos/ejercicioClase/ejercicio1/ejercicio1.html">Envio de datos</a></li>
+           <li><a href="/Manejo-del-dom-y-eventos/ejercicioClase/ejercicio2/ejercicio2.html">Calculadora sencilla</a></li>
+           <li><a href="/Manejo-del-dom-y-eventos/eventoForm/index.html">Eventos formulario o entrada de datos</a></li>
+           <li><a href="/Manejo-del-dom-y-eventos/eventoMouse/index.html">Evento Mouse</a></li>
+           <li><a href="/Manejo-del-dom-y-eventos/tiposForm/index.html">Elementos del formulario</a></li>
+        </ul>
+    </div>
+
+
+    <!--Simulador de cajero-->
+    
+    <h1>Simulador de cajero</h1>
+    
+    <label>Seleccionar opción: </label>
+    <select id="opcion">
+        <option value="1"> Depositar</option>
+        <option value="2"> Retirar</option>
+    </select>
+    <br><br>
+
+    <label for="monto">Ingrese el monto:</label>
+    <input type="number" id="monto" placeholder="Escriba el monto">
+    <br><br>
+
+    <button id="enviar_info">Aceptar</button>
+
+    <script src="script3.js"></script>
+    
+</body>
+</html>
