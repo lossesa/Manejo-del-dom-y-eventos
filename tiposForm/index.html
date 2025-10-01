@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de form</title>
+</head>
+<body>
+    <h2>Tipos de formularios.</h2>
+    <ul>
+        <li><a href="/eventoMouse/index.html">Evento mouse.</a></li>
+        <li><a href="/eventoForm/index.html">Evento por formulario o entrada de datos.</a></li>
+    </ul>
+
+    <h3>Formulario</h3>
+    <form id="miForm">
+        Texto <input type="text" id="texto"> <br><br>
+        Numero <input type="number" id="numero"> <br> <br>
+        Rango <input type="range" min="0" max="20" step="2" id="rango"> <br> <br>
+        <!-- <label id=>---</label> <br><br> -->
+        clave <input type="password" id="clave" name="clave"> <br><br>
+
+        <select id="selecion">
+            <option value="s1">Opcion 1</option>
+            <option value="s2">opcion 2</option>
+            <option value="s3">opcion 3</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" id="check1" value="chk1"> <label>Check 1</label>
+        <input type="checkbox" id="check2" value="chk2"> <label>Check 2</label>
+
+        <br><br>
+
+        <input type="radio" name="radiobtn" value="o1"><label>Opcion 1</label>
+        <input type="radio" name="radiobtn" value="o2"><label>Opcion 2</label>
+
+        <br><br>
+        
+        <textarea id="textarea"></textarea> <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
